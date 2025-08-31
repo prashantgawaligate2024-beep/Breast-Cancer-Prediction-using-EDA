@@ -28,7 +28,13 @@ Key steps include data cleaning, feature scaling, exploratory analysis, and buil
 
 ## Results
 - Logistic Regression achieved *high accuracy and reliable classification*.  
-- Demonstrated strong predictive power for medical diagnostics.  
+- Demonstrated strong predictive power for medical diagnostics.
+## Conclusion
+- Cleaned dataset by removing empty column (569 NAs) and encoding diagnosis → built a clean 569×32 numeric dataset for modeling.
+
+-Standardized 455 training samples and handled high collinearity (r≈0.998) → stabilized optimization and reduced coefficient variance.
+
+-Trained Logistic Regression (80/20 split) → achieved 97.37% test accuracy (111/114 correct).
 
 ## Next Steps
 - Add ROC-AUC, sensitivity, and specificity for medical relevance.  
